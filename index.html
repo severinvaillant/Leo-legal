@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Politique de confidentialité — Léo</title>
+<title>Politique de confidentialité — Leo</title>
 <style>
   :root {
     --ink: #1a1a1a;
@@ -105,72 +105,229 @@
     font-size: 13px;
     margin-top: 32px;
   }
+  h3 {
+    font-size: 15px;
+    margin: 18px 0 8px;
+  }
+  h3:first-of-type { margin-top: 0; }
+  .table-wrap { overflow-x: auto; margin: 0 0 12px; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    vertical-align: top;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+  }
+  th { color: var(--muted); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>Politique de confidentialité — Léo</h1>
-    <p class="updated">Dernière mise à jour : 28 septembre 2026</p>
+    <h1>Politique de confidentialité — Leo</h1>
+    <p class="updated">Dernière mise à jour : 11 novembre 2026</p>
   </header>
 
   <div class="intro">
-    Cette politique de confidentialité décrit comment l'application « Léo » (ci-après « l'App »), éditée par <strong>Séverin VAILLANT</strong>, collecte, utilise et protège les données des utilisateurs.
+    Cette politique explique ce que l'application <strong>« Leo »</strong> (ci-après « l'App »), éditée par
+    <strong>Séverin VAILLANT</strong>, collecte, pourquoi, avec qui ces données sont partagées et comment tout supprimer.
+    Elle est écrite pour être comprise, que tu sois élève ou parent.
+    <ul style="margin-top:12px">
+      <li>On collecte uniquement ce qu'il faut pour te corriger, te faire progresser et sauvegarder ton travail.</li>
+      <li>Les photos de tes exercices et tes messages sont envoyés à un service d'intelligence artificielle pour que Leo puisse te répondre.</li>
+      <li>Pas de publicité, pas de revente de données, pas de pistage publicitaire.</li>
+      <li>Les autres utilisateurs voient ton pseudo, ta ceinture et tes points d'expérience ; tes photos et conversations restent privées.</li>
+      <li>Tu peux supprimer ton compte et toutes tes données à tout moment, directement dans l'App.</li>
+    </ul>
   </div>
 
   <section>
-    <h2><span class="num">1</span>Données collectées</h2>
+    <h2><span class="num">1</span>Responsable du traitement</h2>
+    <p>
+      L'App est éditée par Séverin VAILLANT, responsable du traitement de tes données. Pour toute question :
+      <a href="mailto:leomathsapp@gmail.com">leomathsapp@gmail.com</a>.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span>Données collectées</h2>
+
+    <h3>Ton compte</h3>
     <ul>
-      <li><strong>Compte</strong> : identifiant de connexion (Apple ou Google), pseudo, avatar, sexe et niveau scolaire si renseignés.</li>
-      <li><strong>Contenu pédagogique</strong> : photos d'exercices prises avec l'appareil photo, historique des conversations avec l'assistant IA, fiches méthodes, progression par compétence, défis hebdomadaires.</li>
-      <li><strong>Social</strong> : liste d'amis, classement, code de parrainage (le pseudo et le niveau de progression sont visibles par les autres utilisateurs pour la recherche d'amis et le classement).</li>
-      <li><strong>Abonnement</strong> : statut d'abonnement premium, géré par Apple via StoreKit (nous ne recevons pas tes coordonnées bancaires).</li>
-      <li><strong>Réglages</strong> : préférences (notifications, sons, mode sombre).</li>
+      <li>Connexion avec <strong>Apple</strong> ou <strong>Google</strong> : nous recevons un identifiant et, selon ton choix, ton adresse e-mail (avec Apple, tu peux la masquer). Nous ne recevons jamais ton mot de passe.</li>
+      <li>Ton <strong>pseudo</strong>, choisi à l'inscription, et ton avatar.</li>
+      <li>Ton <strong>niveau scolaire</strong>, pour que Leo suive le bon programme.</li>
+      <li>Facultatif : la façon dont tu veux que Leo s'adresse à toi (accord au masculin, au féminin ou tournures neutres).</li>
+    </ul>
+
+    <h3>Ton travail avec Leo</h3>
+    <ul>
+      <li>Les <strong>photos</strong> d'énoncés et de copies que tu envoies, et ce que tu écris à l'Apple Pencil.</li>
+      <li>Tes <strong>conversations</strong> avec Leo, rattachées à ton niveau scolaire.</li>
+      <li>Les exercices réalisés et les fiches méthode générées pour toi.</li>
+      <li>Ton <strong>crédit IA</strong> : le nombre de demandes envoyées à l'intelligence artificielle sur la période en cours, leur coût estimé et l'empreinte carbone estimée (affichés dans ton profil).</li>
+      <li>Ta <strong>progression</strong> : maîtrise de chaque compétence, points d'expérience, ceintures, jours de pratique, défis, tenues du vestiaire et points de la boutique.</li>
+      <li>Un <strong>profil d'apprentissage</strong> déduit de tes échanges (type d'explication qui te convient, notions solides ou fragiles), utilisé uniquement pour adapter les explications et les exercices.</li>
+    </ul>
+
+    <h3>Amis, classement et parrainage</h3>
+    <ul>
+      <li>Tes demandes d'amis, ta liste d'amis et les utilisateurs que tu as bloqués.</li>
+      <li>Ton code de parrainage, les personnes que tu as parrainées (ou qui t'ont parrainé) et les récompenses obtenues.</li>
+    </ul>
+
+    <h3>Signalements et avis</h3>
+    <ul>
+      <li>Si tu <strong>signales un utilisateur</strong> : le motif, ton commentaire éventuel et le pseudo signalé.</li>
+      <li>Si tu <strong>signales une réponse de Leo</strong> ou envoies un avis / un bug depuis les Réglages : ton message, le texte de la réponse concernée et un contexte technique (version de l'App, modèle d'appareil, version d'iOS, niveau scolaire).</li>
+    </ul>
+
+    <h3>Ton abonnement</h3>
+    <ul>
+      <li>Le paiement est entièrement géré par <strong>Apple</strong>. Nous ne voyons jamais tes coordonnées bancaires.</li>
+      <li>Pour savoir si ton abonnement Premium est actif, l'App utilise le service <strong>RevenueCat</strong>, qui reçoit ton identifiant de compte et l'historique d'achat transmis par Apple.</li>
+    </ul>
+
+    <h3>Ce que nous ne collectons pas</h3>
+    <p>
+      Pas de géolocalisation, pas d'accès à tes contacts, pas d'identifiant publicitaire, pas d'outil de mesure d'audience
+      tiers. L'App n'accède à ton appareil photo que lorsque tu photographies un exercice. Les rappels (exercice du jour)
+      sont des notifications <strong>programmées sur ton appareil</strong> : rien n'est envoyé à un serveur pour cela, et
+      tu peux les couper à tout moment.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span>Pourquoi nous les utilisons</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Usage</th><th>Données</th><th>Base légale</th></tr></thead>
+        <tbody>
+          <tr><td>Corriger tes exercices, répondre à tes questions, proposer des exercices et fiches adaptés</td><td>Photos, conversations, niveau, progression, profil d'apprentissage</td><td>Exécution du service</td></tr>
+          <tr><td>Sauvegarder ton travail et le retrouver sur tous tes appareils</td><td>Compte, conversations, photos, progression</td><td>Exécution du service</td></tr>
+          <tr><td>Amis, classement, parrainage</td><td>Pseudo, ceinture, points, liste d'amis, parrainages</td><td>Exécution du service</td></tr>
+          <tr><td>Gérer ton abonnement Premium</td><td>Statut d'abonnement, historique d'achat</td><td>Exécution du contrat, obligations légales</td></tr>
+          <tr><td>Modération, sécurité, prévention des abus, correction des bugs</td><td>Signalements, avis, blocages, données techniques</td><td>Intérêt légitime à offrir un service sûr</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Nous n'utilisons pas tes données à des fins publicitaires et ne les vendons pas.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span>L'intelligence artificielle</h2>
+    <p>
+      Pour te répondre, l'App envoie tes photos, tes messages et ton niveau scolaire à <strong>notre serveur</strong>
+      (une fonction hébergée chez Supabase), qui vérifie ton crédit IA puis transmet la demande à un fournisseur
+      d'intelligence artificielle : <strong>Google (Gemini)</strong> ou <strong>Mistral AI</strong>. Ces données servent
+      uniquement à générer la réponse. Les clés d'accès à ces services restent sur notre serveur et ne sont jamais
+      stockées sur ton appareil.
+    </p>
+    <p>
+      Évite d'envoyer des photos où l'on voit ton visage, ton nom complet ou d'autres informations personnelles :
+      cadre uniquement ton exercice.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span>Qui a accès à tes données</h2>
+    <h3>Les autres utilisateurs</h3>
+    <p>
+      Ton pseudo, ta ceinture, tes points d'expérience et ta tenue sont visibles par les autres utilisateurs (recherche
+      d'amis, classement). Ton niveau scolaire n'est visible que par tes amis acceptés. Tes photos, conversations et
+      fiches ne sont jamais visibles par les autres. Tu peux bloquer ou signaler un utilisateur à tout moment.
+    </p>
+    <h3>Nos prestataires</h3>
+    <p>Tes données sont confiées uniquement aux prestataires techniques suivants :</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Prestataire</th><th>Rôle</th></tr></thead>
+        <tbody>
+          <tr><td>Supabase</td><td>Hébergement du compte, des données et des photos ; relais des demandes à l'IA</td></tr>
+          <tr><td>Google</td><td>Connexion avec Google ; intelligence artificielle (Gemini)</td></tr>
+          <tr><td>Mistral AI</td><td>Intelligence artificielle</td></tr>
+          <tr><td>Apple</td><td>Connexion avec Apple ; paiement des abonnements</td></tr>
+          <tr><td>RevenueCat</td><td>Vérification du statut d'abonnement</td></tr>
+          <tr><td>Resend</td><td>Envoi à l'éditeur d'une alerte e-mail lors d'un signalement ou d'un avis (contenu du signalement)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>
+      Lorsque des données sont transférées hors de l'Union européenne, ce transfert est encadré par les garanties prévues
+      par le RGPD (décision d'adéquation, dont le Data Privacy Framework UE–États-Unis, ou clauses contractuelles types de
+      la Commission européenne). Nous pouvons aussi transmettre des données si la loi l'exige.
+    </p>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span>Durée de conservation</h2>
+    <ul>
+      <li><strong>Tant que ton compte existe</strong> : tes données sont conservées pour que tu retrouves ton travail.</li>
+      <li><strong>Quand tu supprimes ton compte</strong> : ton profil, tes conversations, tes photos, tes fiches et ta progression sont effacés immédiatement. Les signalements et avis que tu as envoyés sont conservés sans lien avec ton compte, pour le suivi de la modération.</li>
+      <li>Les données de facturation sont conservées par Apple selon ses propres règles.</li>
     </ul>
   </section>
 
   <section>
-    <h2><span class="num">2</span>Comment tes données sont utilisées</h2>
-    <ul>
-      <li>Faire fonctionner l'App (correction des exercices, suivi de progression, sauvegarde cloud de ton compte).</li>
-      <li>Les photos d'exercices et le contenu de tes questions sont envoyés à un service d'intelligence artificielle tiers (Google Gemini, ou un autre fournisseur si tu configures ta propre clé API dans les Réglages) afin de générer une correction ou une explication. Ce contenu est traité par ce tiers selon sa propre politique de confidentialité.</li>
-      <li>Le classement et la recherche d'amis affichent ton pseudo et ta progression aux autres utilisateurs.</li>
-      <li>Nous n'utilisons pas tes données à des fins publicitaires et ne les vendons pas.</li>
-    </ul>
+    <h2><span class="num">7</span>Utilisateurs mineurs</h2>
+    <p>
+      L'App s'adresse aux collégiens et lycéens, dont la plupart sont mineurs. Nous collectons le minimum de données
+      nécessaires et n'affichons aucune publicité. En France, un mineur peut consentir seul au traitement de ses données
+      pour un service en ligne à partir de 15 ans : <strong>si tu as moins de 15 ans</strong>, parles-en avec tes parents
+      avant de t'inscrire.
+    </p>
+    <p>
+      Parents ou tuteurs : vous pouvez nous écrire à <a href="mailto:leomathsapp@gmail.com">leomathsapp@gmail.com</a>
+      pour exercer les droits de votre enfant ou demander la suppression de son compte.
+    </p>
   </section>
 
   <section>
-    <h2><span class="num">3</span>Où sont stockées tes données</h2>
-    <p>Les données de compte et le contenu pédagogique sont stockés sur Supabase (base de données et stockage de fichiers), dans des espaces privés protégés par des règles d'accès strictes (chaque utilisateur n'a accès qu'à ses propres données). Les échanges sont chiffrés en transit (HTTPS/TLS). Si tu configures ta propre clé API dans les Réglages, celle-ci est stockée uniquement sur ton appareil, dans le Trousseau iOS (Keychain), et n'est jamais transmise à nos serveurs.</p>
+    <h2><span class="num">8</span>Tes droits — suppression de compte</h2>
+    <p>
+      Tu peux supprimer définitivement ton compte et l'ensemble de tes données directement dans l'App :
+      <strong>Profil → Réglages → Supprimer mon compte</strong>. Cette action est immédiate et irréversible. Si tu t'es
+      connecté avec Apple, l'accès de l'App à ton identifiant Apple est également révoqué.
+    </p>
+    <p>
+      Conformément au RGPD, tu disposes aussi d'un droit d'accès, de rectification, d'effacement, d'opposition, de
+      limitation et de portabilité. Écris-nous à <a href="mailto:leomathsapp@gmail.com">leomathsapp@gmail.com</a> : nous
+      répondons sous un mois maximum. Si tu estimes que tes droits ne sont pas respectés, tu peux adresser une réclamation
+      à la <a href="https://www.cnil.fr/fr/plaintes" rel="noopener">CNIL</a>.
+    </p>
   </section>
 
   <section>
-    <h2><span class="num">4</span>Durée de conservation</h2>
-    <p>Tes données sont conservées tant que ton compte existe. Tu peux les supprimer à tout moment (voir section 6).</p>
+    <h2><span class="num">9</span>Sécurité</h2>
+    <p>
+      Les échanges entre l'App et nos serveurs sont chiffrés (HTTPS/TLS). Chaque compte n'a accès qu'à ses propres données
+      grâce à des règles d'accès appliquées côté serveur. En cas de violation de données présentant un risque pour toi,
+      nous te préviendrons et préviendrons la CNIL comme la loi l'exige.
+    </p>
   </section>
 
   <section>
-    <h2><span class="num">5</span>Utilisateurs mineurs</h2>
-    <p>L'App s'adresse à des élèves du collège et du lycée, dont certains peuvent être mineurs. Nous collectons le minimum de données nécessaires au fonctionnement de l'App et n'affichons pas de publicité ciblée. Nous recommandons aux parents ou tuteurs d'accompagner la création du compte par un mineur. Un parent ou tuteur souhaitant faire supprimer les données de son enfant peut nous contacter (voir section 7) ou utiliser directement la fonction de suppression de compte dans l'App.</p>
+    <h2><span class="num">10</span>Contact</h2>
+    <p>
+      Pour toute question concernant cette politique ou tes données personnelles :
+      <a href="mailto:leomathsapp@gmail.com">leomathsapp@gmail.com</a>
+    </p>
   </section>
 
   <section>
-    <h2><span class="num">6</span>Tes droits — suppression de compte</h2>
-    <p>Tu peux supprimer définitivement ton compte et l'ensemble de tes données directement depuis l'App : <strong>Réglages → Supprimer mon compte</strong>. Cette action est immédiate et irréversible : elle efface ton profil, ton historique de conversations, tes fiches méthodes, ta progression et tes photos stockées.</p>
-    <p>Conformément au RGPD, tu disposes également d'un droit d'accès, de rectification, de portabilité et d'opposition sur tes données. Tu peux exercer ces droits en nous contactant à l'adresse ci-dessous.</p>
+    <h2><span class="num">11</span>Modifications</h2>
+    <p>
+      Cette politique peut être mise à jour. La date de dernière mise à jour est indiquée en haut de cette page ; en cas de
+      changement important, nous te préviendrons dans l'App.
+    </p>
   </section>
 
-  <section>
-    <h2><span class="num">7</span>Contact</h2>
-    <p>Pour toute question concernant cette politique de confidentialité ou tes données personnelles, contacte-nous à : <a href="mailto:leomathsapp@gmail.com">leomathsapp@gmail.com</a></p>
-  </section>
-
-  <section>
-    <h2><span class="num">8</span>Modifications</h2>
-    <p>Cette politique peut être mise à jour. La date de dernière mise à jour est indiquée en haut de cette page.</p>
-  </section>
-
-  <footer>Léo — Politique de confidentialité</footer>
+  <footer>Leo — Politique de confidentialité</footer>
 </div>
 </body>
 </html>

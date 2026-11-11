@@ -1,6 +1,6 @@
 # mathaid-legal
 
-Page publique de politique de confidentialité pour l'app Léo (MathAidApp).
+Page publique de politique de confidentialité pour l'app Leo (MathAidApp).
 
 ## Étapes pour publier avec GitHub Pages
 
